@@ -7,8 +7,8 @@ If something doesn't work please contact me on discord (Astronawta#0012).
 const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
-        serverName: "MyPixelMC", /*Server name*/
-        serverIp: "play.mypixelmc.github.io", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
+        serverName: "OdanCraft", /*Server name*/
+        serverIp: "odancraft.my.pebble.host", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
         discordServerID: "1293673671189069844" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
@@ -36,7 +36,7 @@ const config = {
 
     If you want to change skin type replace userSKinTypeInAdminTeam with something you want from array in comments
     */
-    userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
+    userSKinTypeInAdminTeam: "head", /*[full, bust, head, face, front, frontFull, skin]*/
     atGroupsDefaultColors: {
         leaders: "rgba(255, 124, 124, 0.5)",
         developers: "rgba(230, 83, 0, 0.5)",
@@ -181,7 +181,7 @@ const config = {
     Emails are sent via https://formsubmit.co/
     */
     contactPage: {
-        email: "mypixelminecraft@gmail.com"
+        email: "odancraft@gmail.com"
     }
 }
 
